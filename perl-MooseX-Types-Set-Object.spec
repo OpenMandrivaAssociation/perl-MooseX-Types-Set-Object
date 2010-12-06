@@ -16,6 +16,7 @@ BuildRequires: perl(MooseX::Types)
 BuildRequires: perl(Set::Object)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::use::ok)
+BuildRequires: perl(Test::Fatal)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
