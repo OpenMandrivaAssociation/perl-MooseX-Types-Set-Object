@@ -1,9 +1,8 @@
-%define upstream_name    MooseX-Types-Set-Object
-%define upstream_version 0.03
+%define upstream_name    MooseX-Types-Set-Object%define upstream_version 0.04
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Set::Object type with coercions and stuff
 License:	GPL+ or Artistic
@@ -57,3 +56,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Feb 05 2010 cpan2dist 0.02-1mdv
 - initial mdv release, generated with cpan2dist
+

@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-Types-Set-Object-0.03.tar.gz: f9c710470093a452651a09e7bcedee14dcb3f5f2
 sources:
-  "MooseX-Types-Set-Object-0.03.tar.gz": f9c710470093a452651a09e7bcedee14dcb3f5f2
+  MooseX-Types-Set-Object-0.04.tar.gz: 0352fb59013a269d99ee4f32971ab746012da38c
