@@ -5,6 +5,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Set::Object type with coercions and stuff
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -17,6 +18,7 @@ BuildRequires:	perl(Set::Object)
 BuildRequires:	perl(Test::Exception)
 BuildRequires:	perl(Test::use::ok)
 BuildRequires:	perl(Test::Fatal)
+BuildRequires:  perl(namespace::autoclean)
 BuildArch:	noarch
 
 %description
@@ -39,21 +41,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %files
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 0.30.0-2mdv2011.0
-+ Revision: 656946
-- rebuild for updated spec-helper
-
-* Mon Dec 06 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.30.0-1mdv2011.0
-+ Revision: 612326
-- update to new version 0.03
-
-* Fri Jul 30 2010 Shlomi Fish <shlomif@mandriva.org> 0.20.0-1mdv2011.0
-+ Revision: 563370
-- import perl-MooseX-Types-Set-Object
-
-
-* Fri Feb 05 2010 cpan2dist 0.02-1mdv
-- initial mdv release, generated with cpan2dist
 
